@@ -1,12 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import './Banner.css'
 
 const Banner: React.FC = () => {
+  const { t } = useTranslation();
   return <section className='banner'>
-    <p className='title'>Popular Pro Stock Vectors</p>
+    <p className='title'>React</p>
     <div className='description'>
-      <div>High quality Vector with worry-free licensing for</div>
-      <div>personal and commercial use.</div>
+      <div>{t("Description")}</div>
     </div>
+    <a href="https://reactjs.org/" className='start styled-btn shadow-btn'>{t("Start")}</a>
   </section>
 }
 export default Banner;

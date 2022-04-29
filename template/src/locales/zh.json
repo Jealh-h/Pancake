@@ -1,8 +1,8 @@
 {
   "Welcome":"欢迎",
-  "methods": {
-      "renderProps": "用renderProps转换",
-      "hook": "用hook转换",
-      "hoc": "用hoc转换"
-  }
+  "切换语言":"切换语言",
+  "Home":"首页",
+  "About":"关于",
+  "Start":"开始",
+  "Description":"用于构建用户界面的JavaScript库"
 }

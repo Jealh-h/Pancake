@@ -1,0 +1,22 @@
+{
+  "name":"pancake-jealh",
+  "version":"0.1.1",
+  "keyword":[
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jealh-h/Pancake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jealh-h/Pancake/issues"
+  },
+  "description": "A template for create react App.",
+  "license": "MIT",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

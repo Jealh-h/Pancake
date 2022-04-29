@@ -13,3 +13,14 @@ p {
   font-weight: lighter;
   color: #979797;
 }
+
+.start {
+  display: block;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  background-color: 000;
+  margin: 100px auto;
+  text-align: center;
+  text-decoration: none;
+}

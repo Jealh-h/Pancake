@@ -2,7 +2,7 @@ import './Button.css'
 
 interface IProps {
   children: any,
-  onClick: () => {}
+  onClick(): void
 }
 
 const Button: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {

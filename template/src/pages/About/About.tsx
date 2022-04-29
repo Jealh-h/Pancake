@@ -1,4 +1,3 @@
-import { SVGProps } from 'react'
 import './About.css'
 import { SiTypescript, SiMobx, SiReactrouter, SiReact } from 'react-icons/si'
 import { MdGTranslate } from 'react-icons/md'

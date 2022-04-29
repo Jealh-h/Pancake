@@ -3,7 +3,7 @@ import { useCallback, useState } from 'react';
 
 const langs = ['zh', 'en', 'jp'];
 
-export default function useLang() {
+export default function useLang(): [string, Function] {
   const [lang, setLang] = useState('zh');
   const memoCallback = useCallback(() => {
     const index = langs.indexOf(lang);
