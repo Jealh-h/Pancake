@@ -1,0 +1,12 @@
+.about-body {
+  width: 70%;
+  margin: 0 auto;
+}
+.line {
+  height: 1px;
+  margin-bottom: 50px;
+  background-color: #979797;
+}
+.feats {
+  padding: 0 100px;
+}

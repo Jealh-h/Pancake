@@ -1,0 +1,15 @@
+.banner {
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p {
+  margin: 10px 0;
+}
+.description {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #979797;
+}
