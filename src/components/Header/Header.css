@@ -1,0 +1,41 @@
+.App-header {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #222429;
+  backdrop-filter: blur(5px);
+  margin-bottom: 2rem;
+}
+.logo {
+  height: 48px;
+  animation: App-logo-spin infinite 5s linear;
+}
+.header-head {
+  display: flex;
+  align-items: center;
+}
+/* .header-logo {
+  margin-right: 1rem;
+} */
+.header-menu {
+  display: flex;
+  font-size: 14px;
+}
+.header-menu a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+.header-tail {
+  display: flex;
+  align-items: center;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
